@@ -1,0 +1,3 @@
+function isContourClosed(obj)
+    num_points = size(obj.row_points);
+    if ((obj.row_points(1)-obj.row_points(num_points))^2+(obj

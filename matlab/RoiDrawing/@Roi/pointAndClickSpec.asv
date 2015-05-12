@@ -1,0 +1,18 @@
+function mask = pointAndClickSpec(obj,f_h)                    
+    obj.xi = 0;
+    obj.yi = 0;
+    point_data = get(f_h,'CurrentPoint');
+    obj.xi(1) = point_data(1,2);
+    obj.yi(1) = point_data(1,1);
+    line(obj.xi,obj.yi);
+    point_data = get(gca,'CurrentPoint');
+    while point_data(1,2) ~= obj.xi(size(obj.xi,2)) && point_data(1,1) ~= obj.yi(size(obj.xi,2))
+        obj.xi(size(obj.xi,2)+1) = point_data(1,2);
+        obj.yi(size(obj.xi,2)+1) = point_data(1,2);
+        line(obj.xi,obj.yi);
+        point_data = get(gca,'CurrentPoint');
+    end
+    obj.xi(size(obj.xi,2)+1) = obj.xi(1);
+    obj.yi(size(obj.yi,2)+1) = obj.yi(1);
+    line(obj.xi,obj.yi);
+    mask = poly2mask(DATA.roi_rows,DATA.roi_cols,DATA.file.nrows,DATA.file.ncols)';

@@ -1,0 +1,1131 @@
+This looks like a LittleEndian/24x/raw file...
+Total file size should be: 331356
+Header size: 157276
+
+...........RDB_HEADER_REC..................
+Offset to/size of RDB_HEADER_REC: 0, 4096
+...RDBM revision number: 24
+...Rdy pkt run number: 57856
+...Rdy pkt sequence number: 113
+...Rdy pkt run number in char: 57856
+...Scan date: 04/07/115
+...Scan time: 17:55
+...Logo, used to verify file: GE_MED_NMR
+...Data type 0=emp 1=nrec 2=rw: 1
+...unused: 0
+...rhdacqctrl bit mask: 0
+...rhrcctrl bit mask: 1
+...rhexecctrl bit mask: 11
+...scan type bit mask: 16
+...rhtype bit mask: 1
+...rhformat bit mask: 3
+...rhrecon proc-a-son recon: 0
+...rhdatacq proc-a-son dacq: 0
+...rhnpasses passes for a scan: 1
+...rhnpomp pomp group slices: 1
+...rhnslices slices in a pass: 1
+...rhnecho echoes of a slice: 5
+...rhnavs number of excitations: 2
+...rhnframes yres: 16
+...rhbline baselines: 0
+...rhhnover overscans: 0
+...rhfrsize xres: 32
+...rhptsize: 4
+...rhvquant 3D volumes: 1
+...RX cine heart phases: 1
+...RX cine TR in sec: 1
+...RX cine RR in sec: 1
+...rhinitpass allocate passes: 1
+...rhincrpass tps autopauses: 1
+...rhmethod 0=recon, 1=psd: 0
+...rhdaxres: 32
+...rhdayres: 17
+...rhrcxres: 256
+...rhrcyres: 256
+...rhimsize: 256
+...RC Z res (power of 2 > rhnslices): 0
+...rhrawsize: 174080
+...rhsspsave: 0
+...rhudasave: 0
+...rhfermr fermi radius: 16
+...rhfermw fermi width: 10
+...rhferme fermi eccentricity: 2
+...rhclipmin 4x IP limit: 0
+...rhclipmax 4x IP limit: 16383
+...rhdoffset default offset: 0
+...rhxoff scroll img in x: 0
+...rhyoff scroll img in y: 0
+...rhnwin hecho window width: 0
+...rhntran hecho trans width: 2
+...PS rhscalei: 0.19641
+...PS rhscaleq: 0
+...RX rotation (0 90 180 270 deg): 0
+...RX transpose (0, n/y transpose): 0
+...rhblank zero image views: 0
+...rhslblank slice blank 3D: 2
+...RX Gradient coil (0=off 1=Schnk 2=Rmr): 0
+...rhddaover unused: 0
+...SARR bit mask 15 bits: 0
+...SARR feeder timing info: 0
+...SARR feeder timing info: 0
+...SARR control of feeder: 0
+...SARR df decimation ratio: 0
+...SARR which feeder algorithm: 0
+...rhdab0s rhdab0e start, stop receiver: 
+   recs[0]: 0, rece[0]: 7
+   recs[1]: 0, rece[1]: 0
+   recs[2]: 0, rece[2]: 0
+   recs[3]: 0, rece[3]: 0
+...rhuser0: 0
+...rhuser1: 0
+...rhuser2: 0
+...rhuser3: 0
+...rhuser4: 0
+...rhuser5: 0
+...rhuser6: 0
+...rhuser7: 0
+...rhuser8: 0
+...rhuser9: 0
+...rhuser10: 0
+...rhuser11: 0
+...rhuser12: 0
+...rhuser13: 0
+...rhuser14: 0
+...rhuser15: 0
+...rhuser16: 0
+...rhuser17: 0
+...rhuser18: 0
+...rhuser19: 0
+...rhuser20: 0
+...rhuser21: 0
+...rhuser22: 0
+...rhuser23: 0
+...rhuser24: 0
+...rhuser25: 0
+...rhuser26: 0
+...rhuser27: 0
+...rhuser28: 0
+...rhuser29: 0
+...rhuser30: 0
+...rhuser31: 0
+...rhuser32: 0
+...rhuser33: 0
+...rhuser34: 0
+...rhuser35: 0
+...rhuser36: 0
+...rhuser37: 0
+...rhuser38: 0
+...rhuser39: 0
+...rhuser40: 0
+...rhuser41: 0
+...rhuser42: 0
+...rhuser43: 0
+...rhuser44: 0
+...rhuser45: 0
+...rhuser46: 0
+...rhuser47: 0
+...rhuser48: 0
+...rhvtype bit mask 31 bits: 0
+...RX x flow direction control: 0
+...RX x flow direction control: 0
+...RX x flow direction control: 0
+...RX x flow direction control: 0
+...RX y flow direction control: 0
+...RX y flow direction control: 0
+...RX y flow direction control: 0
+...RX y flow direction control: 0
+...RX z flow direction control: 0
+...RX z flow direction control: 0
+...RX z flow direction control: 0
+...RX z flow direction control: 0
+...RX weight for magnitude image 1: 0
+...RX weight for magnitude image 2: 0
+...RX weight for magnitude image 3: 0
+...RX weight for magnitude image 4: 0
+...RX velocity encoding cm/sec: 0
+...Specwidth filter width kHz: 0
+...Spectro CSI dims: 0
+...rhspecrescsix: 0
+...rhspecrescsiy: 0
+...rhspecrescsiz: 0
+...RX x CSI volume dimension: 0
+...RX y CSI volume dimension: 0
+...RX z CSI volume dimension: 0
+...RX x CSI volume center: 0
+...RX y CSI volume center: 0
+...RX z CSI volume center: 0
+...Number of dwell periods for spectro: 1
+...PS internal use only: 0
+...PS MPS R1 setting (1-7): 8
+...PS MPS R2 setting (1-30): 21
+...PS MPS transmit gain setting (0-200): 117
+...PS MPS center frequency Hz: 1277619730
+...PS APS R1 setting (1-7): 8
+...PS APS R2 setting (1-30): 30
+...PS APS transmit gain setting (0-200): -2
+...PS APS center frequency Hz: 1277623320
+...PS rational scaling: 0
+...PS unused: 0
+...PS noise test 0=16 1=32 bits: 10
+...PS prescan order logic: 0
+...PS bit mask 4 bits: 0
+...PS powerspec: 
+...PS filler1: 0
+...PS filler2: 0
+...Spectro full, half echo 0, 1: 0
+...Variable "im_size_y": 0
+...rhtype1 data_collect_type 1 bit mask: 0
+...rhfreqscale freq_scale k-space step: 1
+...rhphasescale phase_scale k-space step: 1
+
+			8x fields
+...rhovl - overlaps for MOTSA: 0
+...Linear Corr. 0:off, 1:linear, 2:polynomial: 0
+...Fit number of points: 0
+...Fit order: 2
+...Linear phase correction average 0:off, 1:on: 0
+...Const Corr. 0:off, 1:ky spec., 2:polyfit(2/ilv), 3:polyfit(1/ilv): 0
+...Fit number of points: 2
+...Fit order: 2
+...External correction file 0:don't use, 1: use: 0
+...Phase correction coef. image 0:off, 1:linear & constant: 1
+...Interleaves to use for correction: 0=all, 1=only first: 0
+...Bestky view for fractional ky scan: 0
+...Phase correction research control: 0
+...Phase correction threshold points: 2
+...Phase correction beginning point to discard: 0
+...Phase correction middle point to discard: 0
+...Phase correction ending point to discard: 0
+...Threshold percentage: 15
+...Spacial best reference scan index: 0
+...Temporal best reference scan index: 0
+...Spare for phase correction: 1
+...Number of interleaves: 1
+...Ky traversal direction 0: top-down, 1:center-out: 0
+...Alternate read sign 0=no, 1=odd/even, 2=pairs: 0
+...Number of scan repetitions: 1
+...Reference scan 0: off 1: on: 1
+...Constant S term normalization factor: 0
+...Constant polyfit weighting factor: 0
+...Linear S term normalization factor: 0
+...Linear polyfit weighting factor: 0
+...Best ky location: 64
+...Control word for VRG filter: 0
+...Control word for VRGF final X resolution: 128
+...Control word for bandpass asymmetry: 0
+...Starting frequency: 0
+...Ending frequency: 0
+...Number of iterations used in homodyne processing: 0
+...0: Fast receiver off, 1 - 5: LPF settings: 0
+...Total number of frames for reference scan: 0
+...Number of frames per pass for a reference scan: 0
+...Total number of frames for an entire scan: 0
+...Number of frames per pass: 0
+...Spectro - user usage tag: 0
+...Spectro - fillmapMSW: 0
+...Spectro - fillmapLSW: 0
+...Adjust view indexes, if set so bestky view = 0: 1
+...First view within an echo group used for fit: 0
+...Last view within an echo group used for fit: 0
+...If = 1, force pts from other egrps to be used: 0
+...If = 2, force slope to be set to pclinslope: 1
+...If = 2, force slope to be set to pcconslope: 1
+...Value to set linear slope to if forced: 0
+...Value to set constant slope to if forced: 0
+...If 1,2,3,4, use that coil's results for all: 1
+...Variable view sharing mode: 0
+...Number of original images: 0
+...TR in microseconds: 0
+...Gender: male or female: 0
+...Slice ZIP factor: 0=off, 2, or 4: 0
+...Coefficient A for flow image 1: 0
+...Coefficient B for flow image 1: 0
+...Coefficient C for flow image 1: 0
+...Coefficient D for flow image 1: 0
+...Coefficient A for flow image 2: 0
+...Coefficient B for flow image 2: 0
+...Coefficient C for flow image 2: 0
+...Coefficient D for flow image 2: 0
+...Coefficient A for flow image 3: 0
+...Coefficient B for flow image 3: 0
+...Coefficient C for flow image 3: 0
+...Coefficient D for flow image 3: 0
+...System utility control variable: 0
+...EPI II diffusion control cv: 0
+...Arrhythmia rejection window (percentage): 10
+...Views per segment for FastCine: 8
+...N-coil recon map: 0
+...TE for first echo: 40000
+...TE for second and later echoes: 100000
+...BW for navigator frames: 4
+...Control flag for dfm (0=off, other=on): 0
+...Uncombined NEX at start of recon: 1
+...Max navigator frames in a pass: 1
+...Xres of navigator frames: 32
+...Point size of navigator frames: 2
+...Number of navigators per frame (tag table): 1
+...Control flag for dfm debug: 0
+...Threshold for navigator correction: 0
+...Bit settings controlling gridding: 0
+...B0 map enable and map size: 0
+...TE difference between b0 map arms: 0
+...Flag to apply motion compensation: 0
+...Variable density transition: 0
+...Variable density transition: 0
+...Max gradient amplitude: 0
+...Max slew rate: 0
+...RX scan field of view: 0
+...A to D sample time microsecs: 0
+...Change factor for variable density: 0
+...RX display field of view: 0
+
+			9x fields
+...Auto-Ncoil FOV: 120
+...MFO FIESTA recon control: 0
+...Auto post-processing opcode: 0
+...Auto-Ncoil select: 0
+...Auto-Ncoil limit: 45
+...Auto post processing options: 0
+...Gradient mode in Gemini project: 0
+...Asset: 0
+...Asset calibration threshold: 10000
+...Asset R: 1
+...Asset coil number: 141433
+...Asset phases: 1
+...Table position: 13.4
+...Patient position: 1
+...Patient entry: 1
+...Landmark: 457.1
+
+			11x fields
+...For fat and water dual recon: 0
+...Number of passes stored in a multi-pass Pfile (0 means 1 pass): 0
+...Last slice number: 0
+...Slice reduction factor: 1
+...Asset slab wrap: 0
+...Coefficient for amount of phase correction: 0.5
+...Navigator echo correction: 0
+...Number of views of navigator echoes: 0
+...Number of navigator echoes for actual correction: 2
+...Start view for phase correction process: 1
+...End view for phase correction process: 1
+...Start shot for delta phase estimation in nav echoes: 1
+...End shot for delta phase estimation in nav echoes: 2
+...0 = modified Hanning, 1 = modified Tukey: 0
+...Degree of apodization; 0.0 = boxcar, 1.0=hanning: 0.1
+...Apodization at ends, 0.0 = max, 1.0 = boxcar: 0
+...Surface coil intensity correction: 1 if enabled: 0
+...Type of Clariview/name of filter: 0
+...Edge parameters for enhanced recon: 0
+...Smooth parameters for enhanced recon: 0
+...Focus parameters for enhanced recon: 0
+...Edge parameters for Clariview: 0
+...Smooth parameters for Clariview: 0
+...Focus parameters for Clariview: 0
+...Reduction parameter for SCIC: 0
+...Gauss parameter for SCIC: 0
+...Threshold parameter for SCIC: 0
+...Total Number of regions acquired by PSD: 0
+...Total Number of input regions for reordering: 0
+...Header field for smart prescan: 0
+...K-space blanking field, left: 0
+...K-space blanking field, right: 0
+...Multi-exciter acquire type information from CV: 0
+...Retrosective FSE phase correction control flag: 0
+...Added for retrospective FSE phase correction: 0
+
+			12x fields
+...1st view to use for dynamic EPI phase correction: 0
+...Last view to use for dynamic EPI phase correction: 0
+...Number of passes to skip for dynamic EPI phase correction: 0
+...Number of extra frames at top of k-space: 0
+...Number of extra frames at bottom of k-space: 0
+...Multiphase type 0 = interleaved, 1 = sequential: 0
+...Number of phases in a multiphase scan: 1
+...PURE flag from psd: 0
+...Rec scale factor ratio for calibration scan: 0
+...Byte offset to start of raw data (i.e size of POOL_HEADER): 157276
+...Byte offset to start of rdb_hdr_per_pass of POOL_HEADER: 4096
+...Byte offset to start of rdb_hdr_unlock_raw of POOL_HEADER: 20480
+...Byte offset to start of rdb_hdr_data_acq_tab of POOL_HEADER: 36864
+...Byte offset to start of rdb_hdr_nex_tab of POOL_HEADER: 135168
+...Byte offset to start of rdb_hdr_nex_abort_tab of POOL_HEADER: 137220
+...Byte offset to start of rdb_hdr_tool of POOL_HEADER: 139272
+...Byte offset to start of rdb_hdr_exam of POOL_HEADER: 142820
+...Byte offset to start of rdb_hdr_series of POOL_HEADER: 144780
+...Byte offset to start of rdb_hdr_image of POOL_HEADER: 147340
+...Byte offset to start of rdb_hdr_ps of POOL_HEADER: 141320
+...spare b: 0
+...New WW/WL algo enable/disable flag: 0
+...Image area %: 60
+...Histogram area top: 1
+...Histogram area bottom: 1
+...PURE noise reduction on=1/off=0: 1
+...PURE cfg file value, filter: 1
+...PURE cfg file value, fit_order: 2
+...PURE cfg file value, kernelsize_z: 3
+...PURE cfg file value, kernelsize_xy: 8
+...PURE cfg file value, weight_radius: 32
+...PURE cfg file value, intensity_scale: 2
+...PURE cfg file value, noise_threshold: 75
+...MART deblurring kernel, wienera: 0
+...MART deblurring kernel, wienerb: 0
+...MART deblurring kernel, wienert2: 0
+...MART deblurring kernel, wieneresp: 0
+...MART deblurring kernel, wiener: 0
+...MART deblurring kernel, flipfilter: 0
+...MART deblurring kernel, dbgrecon: 0
+...MART deblurring kernel, ech2skip: 0
+...Tricks type 0 = subtracted, 1 = unsubtracted: 0
+...LC fiesta phase: 0
+...LC fiesta: 0
+...Half echo raw data filter, herawflt: 0
+...Half echo raw data filter, herawflt_befnwin: 1
+...Half echo raw data filter, herawflt_befntran: 2
+...Half echo raw data filter, herawflt_befamp: 1
+...Half echo raw data filter, herawflt_hpfamp: 1
+...Half echo over-sampling: 0
+...PURE Correction threshold: 0
+
+			14x fields
+...SWIFT enable/disable flag: 0
+...Number of slabs to be used by TRICKS: 1
+...Number of coils to SWIFT between: 0
+...autoshim successful (1), autoshim failed/smart/OFF (0): 0
+...Number of phases for dynamic plan: 0
+
+			15x fields
+...MEDAL configuration bitmask: 0
+...MEDAL pixel stack size: 54
+...MEDAL in-phase, out-of-phase order: 0
+...MEDAL max adaptive region growing kernel size: 15
+...MEDAL min adaptive region growing kernel size: 8
+...MEDAL field smoothing kernel size: 8
+...MEDAL 2D region growing start slice: 0
+...MEDAL 2D region growing end slice: 10
+...IDEAL enable/disable flag: 0
+...IDEAL image options and control bits: 0
+...IDEAL delta frequency between two species : 210
+...IDEAL bandwidth in Hz: 3.97
+...IDEAL first echo time in ms (deprecated): 0
+...IDEAL echo spacing in ms (deprecated): 0
+...IDEAL "This will give the number of extra points": 0
+...Set to 1 for VIBRANT scans: 0
+...Set to 1 for torso scans (ASSET): 0
+...Set to 1 to use reapodized cal (ASSET): 0
+...Unique ID for kacq_yz.txt files: 407174040
+...Set to 1 for local Tx phased arrays: 0
+...Used to scale 3D acqs to avoid over-range: 1
+...Scanner mode: 1 = Product, 2 = Research, 3 = Service: 2
+
+			20x fields
+...Channel translation table entry type: 
+   Entry 0:
+    The logicalCoilName of the active coil: RL-GE_HDx TR Knee PA
+    The clinicalCoilName of the active coil: C-GE_HDx TR Knee PA
+    A unique identifier based on coil parameters: 141433
+    The coilConnector to which the active coil is connected: 1
+    Indicates whether this config is used for active scanning: 1
+    The channel translation map for this config: 13, 14, 15, 16, 1, 2, 3, 4
+...The variable rdb_hdr_psc_ta: 93
+...rhdiskacqctrl control: 0
+...Set to 1 for broadband exciter, 0 for narrowband exciter: 1
+
+			16x/22x fields
+...Total number of B values for Multi-B DWI: 1
+...Number of diffusion directions: 1: Single, 3: Three, 4: Tetrahedral: 1
+...Image-based NEX number for T2 (Smart nex): 1
+...NEX number for each b-value in multi-B eDWI: 
+    NEX = 1 (table entry 0)
+...Sum-of-squares recon (0), Complex channel combine recon (1): 0
+...Value of NEX table for unacquired encodes: 4
+
+			16x/23x fields
+...Scaling factor applied to ASL perfusion weighted images: 32
+
+			23x fields
+...Adjustment to rational scaling factor: 1
+...Dual Drive Mode (Quadrature/Preset/Optimized/Manual): 0
+...Dual Drive Q channel Tx atten offset from I channel: 0
+...Dual Drive Q channel Tx phase delay from I channel: 0
+...Checksum for rdb_hdr_dacq_ctrl: 558161692
+...Checksum for patient: 86555469
+...Control word for recon processing in IDEAL: 0
+...Echo times for IDEAL: 
+    echo  0: 0.04
+    echo  1: 0.08
+    echo  2: 0.12
+    echo  3: 0.16
+    *
+    echo 63: 0
+...Y data length of extra frame space for phase correction. Typically
+   echo_pc_ylines or echo_pc_ylines*2: 0
+...Control bit for PC method: slice-by-slice, rcv-by-rcv: 0
+...Number of ky-encoded lines for primary (and reverse) low-res PC image
+   generation: 0
+...Location in da_yres array of first line for primary low-res PC image
+   generation: 0
+...Location in da_yres array of first line for reverse freq encoded low-res
+   PC image generation: 0
+...Number of kz-encoded lines for low-res PC image generation: 0
+...Phase correction fitting order. Default is 1st order: 1
+...Mavric control: 0
+...Mavric image type: 0
+...Mavric bin separation: 1000
+...Mavric B0 offsets: 
+    bin  0: 1000
+    bin  1: 1000
+    bin  2: 1000
+    bin  3: 1000
+    bin  4: 1000
+    bin  5: 1000
+    bin  6: 1000
+    bin  7: 1000
+    bin  8: 1000
+    bin  9: 1000
+    bin 10: 1000
+    bin 11: 1000
+    bin 12: 1000
+    bin 13: 1000
+    bin 14: 1000
+    bin 15: 1000
+    bin 16: 1000
+    bin 17: 1000
+    bin 18: 1000
+    bin 19: 1000
+    bin 20: 1000
+    bin 21: 1000
+    bin 22: 1000
+    bin 23: 1000
+    bin 24: 1000
+    bin 25: 1000
+    bin 26: 1000
+    bin 27: 1000
+    bin 28: 1000
+    bin 29: 1000
+    bin 30: 1000
+    bin 31: 1000
+    bin 32: 1000
+    bin 33: 1000
+    bin 34: 1000
+    bin 35: 1000
+    bin 36: 1000
+    bin 37: 1000
+    bin 38: 1000
+    bin 39: 1000
+
+			24x fields
+...Filter type for complex channel combine: 0
+...Filter main lobe based on percentage of image size: 0.3
+...Beta value for Kaiser window: 2
+...Filter for Focus DW-EPI Phase Correction with Complex NEX: 8
+...PS APS TG Status. Values 1-6 correspond to fast TG modes and 256 means fast TG
+   failed and APS1 ran: 0
+...Calibration pass set vector where the first digit specifies the number of
+...pass sets and subsequent digits specify the number of acquisitions for each
+...pass set: 12
+...Calibration pass set NEX vector where the first digit specifies the number of
+...pass sets and subsequent pairs of digits specify the NEX values for each
+...pass set: 101
+...Calibration pass set weight vector where the first digit specifies the number
+...of pass sets and subsequent pairs of digits specify the weighting percentages
+...for each pass set: 101
+...Sets the filtering processing to perform: 1
+...Defines low pass filter used within the filtering process: 10
+...Controls the regularization strength with surface array cal: 0
+...Controls the regularization strength with body cal: 1
+...Contribution of derived cal to final correction: 0
+...Specifies the amount to re-apodize the cal data: 12
+...Oversampling of the grid: 2
+...Control for dual resolution: 0
+...Max wavenumber of lowres spoke vs highres: 8
+...Low-to-high starting cutover point: 3
+...Low-to-high ending cutover point: 5
+...Oversampling along the spoke: 1
+...Sets sampling rate in # of spokes: 8192
+...Additonal spoke set for dual resolution: 8192
+...Slices used to store extra acquired data: 0
+...Make PSMDE image pixels all positive for SCIC: 0
+...Byte offset to start of rdb_hdr_grad_data of POOL_HEADER: 149788
+...Flag for HOEC recon correction: 0
+...Fit order of HOEC: 3
+...Echo spacing: 500
+
+...........RDB_DATA_ACQ_TAB..................
+Offset to/size of RDB_DATA_ACQ_TAB: 36864, 98304
+Slice 0, pass = 0, slice in pass = 1, transpose = 0, rotation = 0, coilConfigUID = 0
+  point 1: 49.5, 26.5, 0
+  point 2: 49.5, -93.5, 0
+  point 3: -70.5, 26.5, 0
+
+...........RDB_GRAD_DATA_TYPE................
+Offset to/size of RDB_GRAD_DATA_TYPE: 149788, 7488
+...Diffusion gradient amplitudes: 
+    pass   0 (X,Y,Z): 0, 0, 0
+    *
+    pass 511 (X,Y,Z): 0, 0, 0
+...HOEC bases: 
+    base  0 (X,Y,Z) coefficients: 0, 0, 0
+            (X,Y,Z) order: 0, 0, 0
+    *
+    base 55 (X,Y,Z) coefficients: 0, 0, 0
+            (X,Y,Z) order: 0, 0, 0
+
+...........PRESCAN_HEADER..................
+Offset to/size of PRESCAN_HEADER: 141320, 1500
+...PS internal use only (variable "command"): 0
+...PS MPS R1 setting 1 - 7: 8
+...PS MPS R2 setting 1 - 30: 21
+...PS MPS Transmit gain setting 0 - 200: 117
+...PS MPS Center frequency Hz: 1277619730
+...PS APS R1 setting 1 - 7: 8
+...PS APS R2 setting 1 - 30: 30
+...PS APS Transmit gain setting 0 - 200: -2
+...PS APS Center frequency Hz: 1277623320
+...PS rational scaling (variable "scalei"): 0.19641
+...PS unused (variable "scaleq"): 0
+...PS noise test 0=16 1=32 bits 0, 1: 10
+...PS prescan order logic (0-5): 0
+...PS bit mask 4 bits: 0
+...PS powerspec: 
+...PS filler1: 0
+...PS filler2: 0
+...PS xshim: -15
+...PS yshim: 7
+...PS zshim: -20
+...PS recon enable: 0
+...Autoshim successful (1), autoshim failed/smart/OFF (0): 0
+...PS mean +/- std noise each receiver: 
+   rec[0]: 1 +/- 12745.2 (14.1992%)
+   rec[1]: 1 +/- 13923.6 (11.8973%)
+   rec[2]: 1 +/- 13265.5 (13.107%)
+   rec[3]: 1 +/- 13230.7 (13.1762%)
+   rec[4]: 1 +/- 13578.6 (12.5097%)
+   rec[5]: 1 +/- 14848.7 (10.4612%)
+   rec[6]: 1 +/- 13767.6 (12.1685%)
+   rec[7]: 1 +/- 13594.2 (12.4809%)
+...Spectro PS line width: -999
+...Spectro PS water suppression flip angle: -999
+...Spectro PS water suppression level: -999
+...Smart prescan: 0
+...Smart prescan string: 
+
+			15x fields
+...Variable "phase_correction_status": 0
+
+			20x fields
+...Variable "psc_ta": 93
+...Variable "broad_band_select": 1
+
+			23x fields
+...Dual Drive Q chan Tx phase delay for QD setting: 0
+...Dual Drive Q chan Tx phase delay from QD setting: 0
+...Dual Drive Q chan Tx atten offset for QD setting: 0
+...Dual Drive Q chan Tx atten offset from QD setting: 0
+...Dual Drive Mode: 0
+
+...........ExamData Type..................
+Offset to/size of ExamData section: 142820, 1960
+...Exam number: 3356
+...Exam description: RMD333
+...Exam date/time stamp: (1428424796) Tue Apr 07 09:39:56 2015
+...Start time (secs) of first axial in exam: 0
+...Cell number at theta: 0
+...Cell spacing: 0
+...Distance from source to detector: 0
+...Distance from source to iso: 0
+...Indicates number of updates to header: 0
+...Exam complete flag: 0
+...Last series number used: 9
+...Number of series archived: 0
+...Number of series existing: 9
+...Number of unstored series: 0
+...Number of unarchived series: 9
+...Number of prospective/scout series: 9
+...Last model number used: 0
+...Number of 3D models: 0
+...Number of cells in detector: 0
+...Magnet strength (in Gauss): 30000
+...Patient weight: 68040
+...Date/Time of last change: Tue Apr 07 09:39:56 2015
+...The make-unique flag: 0
+...Detector type: 0
+...Tube type: 0
+...DAS type: 0
+...Number of decon kernels: 0
+...Number of elements in a decon kernel: 0
+...Decon kernel density: 0
+...Decon kernel stepsize: 0
+...Decon kernel shift count: 0
+...Patient age (years, months or days): 0
+...Patient age notation: 0
+...Patient sex: 0
+...Exam format: 6
+...Trauma flag: 0
+...Non-zero indicates protocol exam: 1
+...Study has complete info (DICOM/genesis): 0
+...Patient History: 
+...Referring physician: 
+...Diagnostician/Radiologist: 
+...Operator: 
+...Exam type: MR
+...Creator suite and host: UC-CB3TW
+...Process that allocated this record: MRIFCCALLOC
+...Disk ID for this exam: 
+...Hospital name: UCSF Medical Center
+...Suite ID for this exam: UCSF
+...Genesis version - created: 24
+...Genesis version - now: 24
+...Unique system ID: 00000000415cb3tw
+...Unique service ID: gehc            
+...Mobile location number: 9999
+...Study entity unique ID: 1.2.840.113619.6.353.236613749560675562779142864980004289043 
+...Ref SOP class UID:  
+...Ref SOP instance UID:  
+...Patient name (FF): 
+...Patient ID (FF): trash
+...Requisition number (FF): 
+...Date of birth: 
+...Genesis exam UID: 1.2.840.113619.6.353.236613749560675562779142864980004289043 
+...Genesis exam number: 
+
+			23x fields
+...Patient Checksum: 86555469
+...Patient Checksum Type: 2
+
+...........SeriesData Type..................
+Offset to/size of SeriesData section: 144780, 2560
+...Exam number: 3356
+...Series number: 9
+...Series description: hot
+...Allocation series data/time stamp: Tue Apr 07 10:40:41 2015
+...Actual series data/time stamp: Tue Apr 07 10:40:41 2015
+...PixelData size - as stored: 0
+...PixelData size - compressed: 0
+...PixelData size - uncompressed: 0
+...Horizontal landmark: 457.1
+...First scan location (L/S): -13.4
+...Last scan location (L/S): -13.4
+...RAS letter for first scan location (L/S): I
+...RAS letter for last scan location (L/S): I
+...Series complete flag: 0
+...Number of images archived: 0
+...Last image number used: 5
+...Number of images existing: 5
+...Indicates number of updates to header: 0
+...Number of unstored images: 5
+...Number of unarchived images: 5
+...Patient position: 1
+...Patient entry: 1
+...Landmark counter: 0
+...Date/Time of last change: Tue Apr 07 10:40:41 2015
+...Echo 1 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 2 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 3 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 4 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 5 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 6 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 7 alpha, beta, window, level values: 0, 0, 0, 0
+...Echo 8 alpha, beta, window, level values: 0, 0, 0, 0
+...Series type: 1
+...Series from which prescribed: 0
+...Most-like plane (for L/S): 2
+...Scout or axial (for CT): 0
+...The make-unique flag: 0
+...Non-zero if > 0 image used contrast(L/S): 0
+...Last pulse sequence used (L/S): 2
+...Image sort order (L/S): 0
+...Number of acquisitions: 1
+...Starting number for baselines: 0
+...Ending number for baselines: 0
+...Starting number for enhanced scans: 0
+...Ending number for enhanced scans: 0
+...Table position for nMR and iMR: 0
+...nMR - swing angle: 0
+...nMR - lateral offset: 0
+...Gradient coil selection: 0
+...Genesis version - created: 24
+...Genesis version - now: 24
+...Suite ID for this series: UCSF
+...Process that allocated this record: MRIFCCALLOC
+...Disk ID for this series: 
+...Primary receiver suite and host: UCSFCB
+...Archiver suite and host: 
+...Anatomical reference: 
+...Scan protocol name: thermo01-HOT-3
+...Series entity unique ID: 1.2.840.113619.2.353.4120.11688632.18801.1428424482.487 
+...Landmark unique ID: 1.2.840.113619.2.353.4120.11688632.18801.1428424482.478 
+...Equipment unique ID: 1.2.840.113619.1.353.5.4120.11688632 
+...Ref SOP class UID:  
+...Ref SOP instance UID:  
+...Sched proc action item seq - value: 
+...Sched proc action item seq - description: 
+...Sched proc action item seq - meaning: 
+...Sched proc step desc: 
+...Sched proc step ID 1: 
+...Req proc step ID 1: 
+...PPS ID: 
+...PPS description: 
+...Req proc step ID 2: 
+...Req proc step ID 3: 
+...Sched proc step ID 2: 
+...Sched proc step ID 3: 
+...Dicom reference images (4 UIDS): 
+   (0):  
+   (1):  
+   (2):  
+   (3):  
+
+			11x fields
+...fMRI ExpType: 0
+...fMRI TrRest: 0
+...fMRI TrActive: 0
+...fMRI DumAcq: 0
+...fMRI ExptTimePts: 0
+...Supplement to se_typ, see DICOM (0008,0008): 0
+...fMRI BWRT: 0
+...fMRI PdgmStr:                                                                 
+...fMRI PdgmDesc:                                                                                                                                                                                                                                                                 
+...fMRI PdgmUID:  
+...fMRI ApplName:                 
+...fMRI ApplVer:                 
+
+			12x fields
+...Asset calibration series number: -1
+...Asset calibration scan number: 0
+...Product/Research/Service: 2
+...Pure calibration series number: -1
+...Pure calibration scan number: 0
+...Asset application name:             
+...Scic_a values from CoilConfig.cfg: 0                               
+...Scic_s values from CoilConfig.cfg: 0                               
+...Scic_c values from CoilConfig.cfg: 0                               
+...PURE config parameters from pure.cfg: rev=1;a=75;b=2;c=32;d=8;e=3;f=2;g=1;h=0                         
+
+			15x fields
+...(IDEAL) water, fat, in-phase, and out-phase: 0
+
+			23x fields
+...Landmark: 457.1
+...Table position: 13.4
+...Flag to determine corner point verification: 1
+
+			24x fields
+...PURE Lambda: 10
+...PURE Tuning Factor Surface: 0
+...PURE Tuning Factor Body: 1
+...Derived Cal Fraction: 0
+...Derived Cal Reapodization: 12
+...Cal Pass Set Vector: 12
+...Cal NEX Vector: 101
+...Cal Weight Vector: 101
+...PURE Filtering Mode: 1
+...ASSET Cal Type: 0
+...Which PURE is applied/can be applied : 1
+...PURE Calibration Type: 0
+...SilentMR localizer mode for task to behave like 3-Plane localizer: 0
+
+...........MRImgData Type..................
+Offset to/size of MRImgData section: 147340, 2448
+...Exam number for this image: 3356
+...Series number for this image: 9
+...Image number: 31
+...Actual image date/time stamp: Tue Apr 07 10:55:51 2015
+...Allocation image date/time stamp: Tue Apr 07 10:55:51 2015
+...Raw data run number: 57856
+...Display field of view - x (mm): 120
+...Display field of view - y (if different): 120
+...Image matrix size - x: 256
+...Image matrix size - y: 256
+...Image dimension - x: 32
+...Image dimension - y: 16
+...Image pixel size - x: 0.4688
+...Image pixel size - y: 0.4688
+...Variable bandwidth (kHz): 3.97
+...Pulse repetition time (usec): 2000000
+...Pulse echo time (usec): 40000
+...Second echo time (usec): 100000
+...Echo train length for fast spin echo: 1
+...Fractional echo - effective TE flag: 0
+...Pulse inversion time (usec): 0
+...Flip angle for GRASS scans (deg): 90
+...Number of echoes: 5
+...Echo number: 1
+...Variable echo flag: 0
+...Number of slices in this scan group: 1
+...Slice thickness (mm): 10
+...Spacing between scans (mm): 10
+...Negative scan spacing for overlap slices: 0
+...Continuous slices flag: 1
+...Slice thickness (variable 'thk_disclmr'): 0
+...Number of 3D slabs: 0
+...Slice locations per 3D slab: 0
+...Number of slice locs on each slab which overlap neighbors: 0
+...Frequency direction: 2 (up/down)
+...Swap phase/frequency axis: 1
+...Slice offsets on frequency axis: 0
+...Number of excitations: 4
+...Duration of scan: 1.3605e+008
+...Magnitude, phase, imaginary, or real: 0
+...Plane type: 2
+...Oblique plane: 2
+...Scout type (A-P or lateral): 0
+...Graphically prescribed: 0
+...Series from which prescribed: 0
+...Image from which prescribed: 0
+...Image location: -13.4
+...RAS letter of image location: I
+...(R,A,S) center coordinate of image: (-10.5, -33.5, -13.4)
+...(R,A,S) normal coordinate: (0, 0, 1)
+...(R,A,S) coordinate of top left hand corner: (49.5, 26.5, -13.4)
+...(R,A,S) coordinate of top right hand corner: (-70.5, 26.5, -13.4)
+...(R,A,S) coordinate of bottom right hand corner: (-70.5, -93.5, -13.4)
+...Imaging mode: 1
+...Imaging options: 2048 (EDR)
+...Imaging option 2: 0 (none)
+...Imaging option 3: 0 (none)
+...Table delta: 0
+...Pulse sequence: 2
+...Pulse sequence mode: 0
+...Pulse sequence name: hot18
+...PSD creation date and time: Tue Apr 07 17:28:39 2015
+...PSD name from inside PSD: MEMP
+...Type of receiver used: 1
+...Coil type: 1
+...Coil name: HD TR Knee PA
+...Surface coil type: 0
+...Extremity coil flag: 0
+...Surface coil intensity correction flag: 0
+...IV contrast agent: 
+...Oral contrast agent: 
+...Image contrast mode: 0
+...Cardiac repetition time: 0
+...Cardiac heart rate (bpm): 0
+...Trigger window (% of RR interval): 0
+...Images per cardiac cycle: 0
+...Cardiac phase number: 0
+...Total number of cardiac phases prescribed: 0
+...Tagging flip angle: 0
+...Cardiac tagging orientation: 0
+...Tag type: 0
+...Tag space: 0
+...Blood suppression TI: 0
+...Delay time after trigger (msec): 0
+...Minimum delay after trigger (usec): 0
+...Fast CINE interpolation method: 0
+...Fast CINE normalization type: 0
+...Views per segment: 0
+...Respiratory rate (breaths per min): 0
+...Respiratory trigger point as percent of maximum: 0
+...Respiratory trigger window: 0
+...Number of fast phases: 0
+...Number of EPI shots: 0
+...Effective echo spacing for EPI: 0
+...Diffusion direction for DW-EPI: 0
+...B-value for DW-EPI: 0
+...Average SAR: 0.00753066
+...Peak SAR: 0.404189
+...Average head SAR: 0.202094
+...Bitmap defining user CVs: 16
+...User usage tag ("defines how user CVs are filled in"): 0
+...What process fills in the user CVs, ifcc or TIR ('user_fill_mapMSW'): 0
+...What process fills in the user CVs, ifcc or TIR ('user_fill_mapLSW'): 0
+...User variable 0: 0
+...User variable 1: 0
+...User variable 2: 0
+...User variable 3: 0
+...User variable 4: 1
+...User variable 5: 0
+...User variable 6: 0
+...User variable 7: 0
+...User variable 8: 0
+...User variable 9: 0
+...User variable 10: 0
+...User variable 11: 0
+...User variable 12: 0
+...User variable 13: 0
+...User variable 14: 0
+...User variable 15: 0
+...User variable 16: 0
+...User variable 17: 0
+...User variable 18: 0
+...User variable 19: 0
+...User variable 20: 0
+...User variable 21: 0
+...User variable 22: 0
+...User variable 23: 0
+...User variable 24: 0
+...User variable 25: 0
+...User variable 26: 0
+...User variable 27: 0
+...User variable 28: 0
+...User variable 29: 0
+...User variable 30: 0
+...User variable 31: 0
+...User variable 32: 0
+...User variable 33: 0
+...User variable 34: 0
+...User variable 35: 0
+...User variable 36: 0
+...User variable 37: 2
+...User variable 38: 14044
+...User variable 39: 40000
+...User variable 40: 3970
+...User variable 41: 3970
+...User variable 42: 0
+...User variable 43: 5
+...User variable 44: 0
+...User variable 45: 900
+...User variable 46: 5792
+...User variable 47: 5896
+...User variable 48: 19000
+...dBdt peak rate of gradient field change (T/s): 0
+...dBdt limit in units of percent of theoretical curve: 100
+...PSD estimated dBdt limit in Teslas/sec: 0
+...PSD estimated dBdt limit in units of percent: 0
+...RTIA timer: 0
+...RTIA fps: 0
+...RTIA filter mode: 
+...Bitmap of SAT selections: 0
+...SAT fat/water/none: 0
+...Concat sat type flag: 0
+...R-side SAT pulse location relative to landmark: 9990
+...L-side SAT pulse location relative to landmark: 9990
+...A-side SAT pulse location relative to landmark: 9990
+...P-side SAT pulse location relative to landmark: 9990
+...S-side SAT pulse location relative to landmark: 9990
+...I-side SAT pulse location relative to landmark: 9990
+...Thickness of x axis SAT pulse: 0
+...Thickness of y axis SAT pulse: 0
+...Thickness of z axis SAT pulse: 0
+...Preparatory pulse option: 0
+...Magnitization Transfer offset frequency: 0
+...Vascular mode: 0
+...Phase contrast flow axis: 0
+...Phase contrast velocity encoding: 0
+...Scale weighted venc: 0
+...Magnitude weighting flag: 2
+...Collapse image: 0 (Unknown)
+...Projection algorithm: 0
+...Projection algorithm name: 
+...Projection angle: 0
+...X axis rotation: 0
+...Y axis rotation: 0
+...Z axis rotation: 0
+...Pause time: 0
+...Pause interval (slices): 0
+...Interimage/interloc delay (usec): 0
+...Image filtering 0.5/0.2 T: 0
+...MR-YMS num_seg: 0
+...Number of averages for spectro: 0
+...Station index: 0
+...Station total: 0
+...Calibrated field strength (x10 uGauss): 0
+...Scan acquisition number: 7
+...GE image integrity: 0
+...Identify image as original or unoriginal: 0
+...Image complete flag: 0
+...Reference image field: 
+...Summary image field: 
+...Window value: 0
+...Level value: 0
+...Lower range of pixels 1: 0
+...Upper range of pixels 1: 0
+...Lower range of pixels 2: 0
+...Upper range of pixels 2: 0
+...Screen format (8/16 bit): 16
+...Image archive flag: 0
+...Suite ID for this image: UCSF
+...Image unique ID: 1.2.840.113619.2.353.4120.11688632.17215.1428424972.19 
+...Service obj class unique ID: 1.2.840.10008.5.1.4.1.1.4 
+...Make-unique flag: 0
+...Disk ID for this image: 
+...Image compression type for allocation: 3
+...Foreign image revision: 
+...Image allocation key: MRIFCCALLOC
+...Date/time of last change: Tue Apr 07 10:55:51 2015
+...Genesis version - created: 24
+...Genesis version - now: 24
+...Pixel data ID: 
+...Pixel data size - as stored: 0
+...Pixel data size - compressed: 0
+...Pixel data size - uncompressed: 0
+...String slop field 2: 
+...Bitmap of prescan options: 4
+
+			11x fields
+...Regressor value: 0
+...Delay after acquisition (MP/fMRI screen): 0
+
+			12x fields
+...Slice asset in ASSET screen: 1
+...Phase asset in ASSET screen: 1
+...Corresponding 4 SAR values for defined terms: [0.00753066, 0.404189, 0.202094, 0.202094]
+...SAR control mode (normal, 1st or 2nd): 1
+...Variable 'sarDefinition': defined terms available: 15
+...Shim FOV (2 terms): [0, 0]
+...Shim (R,A,S) center (2 terms): [0, 0, 0], [0, 0, 0]
+...dBdt control mode (normal, 1st or 2nd): 1
+...Governing body MHW/IEC/FDA: 1
+...Variable: 'no_shimvol': 0
+...Variable: 'shim_vol_type': 0
+...Variable: 'xml_psc_shm_vol':                                 
+...GE coil name: C-GE_HDx TR Knee PA     
+...Concatenated string of coilcode and chip serialID: 
+                                                                                                         
+...ASSET calibration series UID:  
+...PURE calibration series UID:  
+
+			14x fields
+...fMRI: RXM blob size: 0
+...fMRI: RXM blob size padding: 0
+...Current phase for this image (DP): 0
+...Acoustic reduction level: 0
+...Slice group number (0 = no groups, 1 = 1st group, etc.: 0
+...Number of slice groups (0 = no groups, 1 = 1st group, etc.: 0
+...Display image in auto view: 1
+...Variable: rxmpath: 
+...Pulse sequence name annotation:  
+
+			15x fields
+...Slice number in group: 0 = no image, 1 = 1st image, etc.: 0
+
+			16x/20x fields
+...AutoSubParam struct: [0, 0, 0, 0, 0, 0]
+
+			16x/22x fields
+...Duration of label or control pulse for 3D ASL: 0
+
+			16x/23x fields
+...Scale factor for 3D ASL populated by IFCC: 0
+
+			20x fields
+...Imaged Nucleus 1H=>Hydrogen, 13C=>carbon, 23NA=>Sodium, etc: 1
+
+			21x fields
+...MRE temporal phases: 4
+...MRE driver frequency: 60
+...MRE driver amplitude: 50
+...MRE driver cycle per trigger: 3
+...MEG direction: 4
+
+			23x fields
+...Motion encoding (menc): 0
+...Normal L coordinate: -49.2656
+...Normal P coordinate: -26.2656
+...Normal S coordinate: -13.4
+...Bloch Siegert RF offset frequency: 4000
+
+			24x fields
+...Oversampling factor: 1
+...Fermi radius: 16
+...Fermi width: 10
+...Fermi eccentricity: 2
+...Rescan time: 0
+...Spokes per segment: 128
+...Recovery time: 0
+...T2 Prep Echo time: 25000
+...HOEC correction flag: 0
+...Bitmap2 defining user CVs: 0
+...Volumetric properties attribute: 0
+...Excitation mode: 0=Not included in DICOM tag, 1=NSL, 2=FOC: 0

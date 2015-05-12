@@ -1,0 +1,10 @@
+function obj = calcOutlines(obj)
+image_norm = obj.rois2Surface();
+num_rois = obj.getLength;
+iso_line_list = [num_rois:-1:1]/num_rois - 0.001;
+
+for roi_num = 1:num_rois
+    mask = obj.getSpecRoi(roi_num).getMask;
+    
+
+obj.iso_lines = calcIsoLines(image_norm,iso_line_list);

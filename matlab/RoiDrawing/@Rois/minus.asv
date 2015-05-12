@@ -1,0 +1,11 @@
+function obj_return = minus(obj_pre,obj_post)
+masks = zeros(obj_pre.getLength,size(obj_pre.getSpecRoi(1)));
+for pre_num = 1:obj_pre.getLength
+    this_mask = obj_pre.getSpecRoi(pre_num).getMask;
+    for post_num = 1:obj_post.getLength
+        anded = this_mask && obj_post.getSpecRoi(post_num).getMask;
+        masks(anded) = 0;
+    end
+    masks
+end
+obj_return = 

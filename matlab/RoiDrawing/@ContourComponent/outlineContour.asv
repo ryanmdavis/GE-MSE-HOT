@@ -1,0 +1,10 @@
+function outlineContour(obj,varargin)
+invar = struct('axes_h',gca,'linewidth',1,'linecolor','b','linestyle','-');
+argin = varargin;
+invar = generateArgin(invar,argin);
+axes(invar.axes_h)
+line(obj.row_points,obj.col_points,'linewidth',invar.linewidth,'color',invar.linecolor,'linestyle',invar.linestyle);
+if obj.isContourClosed
+    num_pixels = size(row_values,1);
+    line([obj.row_points(1) obj.row_poin(num_pixles)],[obj.col_points(1) obj.col_points(num_pixles)],'linewidth',invar.linewidth,'color',invar.linecolor,'linestyle',invar.linestyle);
+end

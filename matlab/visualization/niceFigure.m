@@ -15,20 +15,19 @@ pos=get(f_h,'Position');
 fig_dim_points=max(pos(3:4));
 
 % read optional inputs
-invar = struct('fs',round(fig_dim_points/24),'publishable',0); %not publishable
-% invar = struct('fs',round(fig_dim_points/5));
+invar = struct('publishable',0,'fs_adjust',1); %not publishable
 argin = varargin;
 invar = generateArgin(invar,argin);
 
 % set figure properties to be used below
 if invar.publishable
-    linewidth=round(fig_dim_points/30);
-    markersize=round(fig_dim_points/10);
-    fontsize=round(fig_dim_points/50);
+    linewidth=round(invar.fs_adjust*fig_dim_points/30);
+    markersize=round(invar.fs_adjust*fig_dim_points/10);
+    fontsize=round(invar.fs_adjust*fig_dim_points/50);
 else
-    linewidth=round(fig_dim_points/80);
-    markersize=round(fig_dim_points/35);
-    fontsize=round(fig_dim_points/24);
+    linewidth   =round(invar.fs_adjust*fig_dim_points/80);
+    markersize  =round(invar.fs_adjust*fig_dim_points/35);
+    fontsize    =round(invar.fs_adjust*fig_dim_points/24);
 end
 
 % change fontsize of axes objects

@@ -31,7 +31,7 @@ images=upsampleImage(images,1/upsample_factor);
 if strfind(path,'RMD332')
     images = scanSpecificAdjustment(images,1);
 end
-
+raw=images; %return this as the raw data
 
 if isempty(invar.evolution_time)
     t1 = fields.variable_46/1000; %divide by 1000 converts microseconds to milliseconds

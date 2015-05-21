@@ -2,13 +2,12 @@
 %               1 - left and bottom margins, i.e. with axis labels
 %               2 - right margin for colorbar
 
-function publishableTif4(f_h,path,size_inch,varargin)
+function publishableTif4(f_h,path,size_inch,margins,varargin)
 
-if nargin==4
-    margins=varargin{1};
-else
-    margins=1;
-end
+%% optional function arguments
+invar = struct('format',1);
+argin = varargin;
+invar = generateArgin(invar,argin);
 
 set(f_h,'units','inches');
 set(f_h,'Position',[1 1 size_inch(1) size_inch(2)]);
@@ -24,7 +23,9 @@ elseif margins == 2
 end
 set(f_h,'PaperType','usletter');
 set(f_h,'PaperOrientation','portrait');
-niceFigure(f_h,'publishable',1);
-niceSubplot(f_h);
+if invar.format
+    niceFigure(f_h,'publishable',1);
+    niceSubplot(f_h);
+end
 drawnow
 print(f_h,path,'-dtiff','-r300');

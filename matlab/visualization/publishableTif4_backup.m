@@ -14,17 +14,15 @@ set(f_h,'units','inches');
 set(f_h,'Position',[1 1 size_inch(1) size_inch(2)]);
 % set(f_h,'PaperSize',[size_inch(1) size_inch(2)]);
 set(f_h,'color','w');
-set(f_h,'units','inches');
+set(gca,'units','inches');
 if margins == 1
-    set(f_h,'position',[size_inch(1)/4 size_inch(1)/4 size_inch(1)*4/6 size_inch(2)*4/6]);
+    set(gcf,'position',[size_inch(1)/4 size_inch(1)/4 size_inch(1)*4/6 size_inch(2)*4/6]);
 elseif margins == 0
-    set(f_h,'position',[0 0 size_inch(1) size_inch(2)]);
+    set(gca,'position',[0 0 size_inch(1) size_inch(2)]);
 elseif margins == 2
-    set(f_h,'position',[0 size_inch(2)*0.1 size_inch(1)/2 size_inch(2)*0.8]);
+    set(gca,'position',[0 size_inch(2)*0.1 size_inch(1)/2 size_inch(2)*0.8]);
 end
-set(f_h,'PaperType','usletter');
-set(f_h,'PaperOrientation','portrait');
-niceFigure(f_h,'publishable',1);
-niceSubplot(f_h);
+set(gcf,'PaperType','usletter');
+set(gcf,'PaperOrientation','portrait');
 drawnow
 print(f_h,path,'-dtiff','-r300');

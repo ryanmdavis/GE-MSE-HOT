@@ -14,7 +14,7 @@ time_plot=[time1 (time2-40)];
 
 %% turn on echo averaging and reconstruct data
 setHOTReconOption('num_echoes_avg',4);
-reconstruct('RMD333',9);
+% reconstruct('RMD333',9);
 
 %% read FSE scan and correct for chemical shift artifact (AP direction)
 background=double(dicomread('C:\Users\Ryan2\Documents\Warren Lab Work\GE 3T data\RMD333\E3356\4\E3356S4I13.DCM'));
@@ -57,11 +57,10 @@ for tp=1:size(time,2)
     end
     subplot(4,5,tp);
     imagesc(i_rgb(disp_row,disp_col,:));
-%     title(strcatspace(num2str(time(tp)-time(1)),' min'));
+    t_h=text(5,49,strcatspace(num2str(time_plot(tp)-time_plot(1)),' min'));
+    set(t_h,'color','w');
     axis image off
 end
-subplot(4,5,20); 
-niceFigure(gcf);
 set(gcf,'Name',(strcatspace('T=',num2str(getHOTReconOption('fermi_T')),'  E=',num2str(getHOTReconOption('fermi_E')),'  NEcho=',num2str(getHOTReconOption('num_echoes_avg')))));
 publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\T maps -r300.tif',[9 6],3);
 
@@ -89,4 +88,4 @@ axis square
 xlim([0 45]);
 niceFigure(gcf);
 
-publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3);
+% publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3);

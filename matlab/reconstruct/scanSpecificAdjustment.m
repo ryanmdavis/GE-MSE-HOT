@@ -20,6 +20,9 @@ switch adj_num
             end
         end
         
+        out=conj(out);
+       
+        
         %kspace adjustment
 %         k=fftNd(in);
 %         clear in
@@ -45,6 +48,9 @@ switch adj_num
     % causes destructive interference in the phase images during averaging.
     case 3
         out=[2 3 4];
+%         out=1:4;
+    case 4
+        out = conj(in);
     otherwise
         error('invalid adjustment number'); 
 end

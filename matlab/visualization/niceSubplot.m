@@ -6,13 +6,17 @@ old_units=get(f_h,'Units');
 set(f_h,'Units','Normalized');
 subplot_handles=flipud(findobj(f_h,'Type','axes','-not','Tag','legend'));
 pos_cell=get(subplot_handles,'Position');
-for sp_num=1:size(pos_cell,1)
-    pos_col(sp_num)=pos_cell{sp_num}(1);
+
+if iscell(pos_cell)
+    for sp_num=1:size(pos_cell,1)
+        pos_col(sp_num)=pos_cell{sp_num}(1);
+    end
+
+    colss=find(pos_col==pos_col(1),2); cols=colss(2)-1;
+    rows=ceil(size(pos_cell,1)/cols);
+else
+    rows=1; cols=1;
 end
-
-colss=find(pos_col==pos_col(1),2); cols=colss(2)-1;
-rows=ceil(size(pos_cell,1)/cols);
-
 % only do anything if this is really a figure with subplots
 if (rows>1)||(cols>1)
     % find how much of figure is dedicated to axes

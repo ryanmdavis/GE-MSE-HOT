@@ -88,4 +88,4 @@ axis square
 xlim([0 45]);
 niceFigure(gcf);
 
-publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3);
+publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3,'format',0);

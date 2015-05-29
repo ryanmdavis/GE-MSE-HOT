@@ -55,14 +55,14 @@ for tp=1:size(time,2)
     if us_on(tp)
         i_rgb=superpose2RGB(us_on_box,i_rgb,squeeze(us_on_box(:,:,1)));
     end
-    subplot(4,5,tp);
+    subplot(3,6,tp);
     imagesc(i_rgb(disp_row,disp_col,:));
     t_h=text(5,49,strcatspace(num2str(time_plot(tp)-time_plot(1)),' min'));
     set(t_h,'color','w');
     axis image off
 end
 set(gcf,'Name',(strcatspace('T=',num2str(getHOTReconOption('fermi_T')),'  E=',num2str(getHOTReconOption('fermi_E')),'  NEcho=',num2str(getHOTReconOption('num_echoes_avg')))));
-publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\T maps -r300.tif',[9 6],3);
+publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\T maps -r300.tif',[9 6],3,'format',3);
 
 %% reconstruct Luxtron data
 load('C:\Users\Ryan2\Documents\Warren Lab Work\Analysis\HIFU and HOT\RMD333\RMD333-Luxtron data_4-7-2015-63880.mat');
@@ -74,6 +74,10 @@ luxtron_temp=temperature_values-mean(temperature_values(1:50));
 luxtron_voxel = [316 230];
 hot_temp=dt(:,luxtron_voxel(1),luxtron_voxel(2));
 hot_time=time_plot-time_plot(1);
+
+%% rmsd
+time_coarse=findClosestTimeSamples(luxtron_time,hot_time);
+rmsd_exp2=sqrt(mean((hot_temp-luxtron_temp(time_coarse,1)).^2));
 
 %% display data
 figure,plot(luxtron_time,luxtron_temp(:,1),'k');
@@ -88,4 +92,4 @@ axis square
 xlim([0 45]);
 niceFigure(gcf);
 
-publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3);
+publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abstracts\warren lab manuscripts\GE MSE-HOT paper\figures\Exp2\luxtron -r300.tif',[4 4],3,'format',0);

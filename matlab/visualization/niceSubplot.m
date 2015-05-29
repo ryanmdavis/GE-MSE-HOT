@@ -12,8 +12,15 @@ if iscell(pos_cell)
         pos_col(sp_num)=pos_cell{sp_num}(1);
     end
 
-    colss=find(pos_col==pos_col(1),2); cols=colss(2)-1;
-    rows=ceil(size(pos_cell,1)/cols);
+    col_start=find(pos_col==pos_col(1),2); 
+    if size(col_start,2) == 1 %if there is only one row
+        rows=1;
+        cols=size(pos_cell,1);
+    else
+        cols=col_start(2)-1;
+        rows=ceil(size(pos_cell,1)/cols);
+    end
+    
 else
     rows=1; cols=1;
 end

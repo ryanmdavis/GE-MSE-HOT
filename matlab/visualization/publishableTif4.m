@@ -23,8 +23,8 @@ elseif margins == 2
 end
 set(f_h,'PaperType','usletter');
 set(f_h,'PaperOrientation','portrait');
-if invar.format
-    niceFigure(f_h,'publishable',1);
+if invar.format>=0
+    niceFigure(f_h,'format',invar.format);
     niceSubplot(f_h);
 end
 drawnow

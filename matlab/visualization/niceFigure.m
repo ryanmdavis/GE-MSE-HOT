@@ -15,19 +15,27 @@ pos=get(f_h,'Position');
 fig_dim_points=max(pos(3:4));
 
 % read optional inputs
-invar = struct('publishable',0,'fs_adjust',1); %not publishable
+invar = struct('format',0,'fs_adjust',1);
 argin = varargin;
 invar = generateArgin(invar,argin);
 
 % set figure properties to be used below
-if invar.publishable
-    linewidth=round(invar.fs_adjust*fig_dim_points/30);
-    markersize=round(invar.fs_adjust*fig_dim_points/10);
-    fontsize=round(invar.fs_adjust*fig_dim_points/50);
-else
+if invar.format==1
+    linewidth   =round(invar.fs_adjust*fig_dim_points/30);
+    markersize  =round(invar.fs_adjust*fig_dim_points/10);
+    fontsize    =round(invar.fs_adjust*fig_dim_points/50);
+elseif invar.format==0
     linewidth   =round(invar.fs_adjust*fig_dim_points/80);
     markersize  =round(invar.fs_adjust*fig_dim_points/35);
     fontsize    =round(invar.fs_adjust*fig_dim_points/24);
+elseif invar.format==2 %histogram
+    linewidth   =round(invar.fs_adjust*fig_dim_points/320);
+    markersize  =round(invar.fs_adjust*fig_dim_points/35);
+    fontsize    =round(invar.fs_adjust*fig_dim_points/24);
+else
+    linewidth   =round(invar.fs_adjust*fig_dim_points/50);
+    markersize  =round(invar.fs_adjust*fig_dim_points/10);
+    fontsize    =round(invar.fs_adjust*fig_dim_points/50);
 end
 
 % change fontsize of axes objects

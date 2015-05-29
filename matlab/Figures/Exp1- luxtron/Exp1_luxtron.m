@@ -1,6 +1,6 @@
 %% reconstruct MRI data
 setHOTReconOption('num_echoes_avg',1,'row_shift',0,'col_shift',0);
-% reconstruct('RMD332',7);
+reconstruct('RMD332',7);
 
 %% define timepoints
 time=[1500 1504 1506 1509 1511 1513 1516 1518 1520 1523 1525 1527 1530 1532 1534 1537 1539 1542];
@@ -46,7 +46,7 @@ for tp=1:size(time,2)
     t_rgb_=intensity2RGB(squeeze(dt(tp,row,col)),hot,dt_range);    
     t_rgb=superpose2RGB(t_rgb_,0.5*ones(size(row,2),size(col,2),3),mask(row,col));
     t_rgb=superpose2RGB(t_rgb,us_on_square,~squeeze(us_on_square(:,:,1)));
-    subplot(4,5,tp);
+    subplot(3,6,tp);
     imagesc(t_rgb);
     text(3,44,strcatspace(num2str(time(tp)-time(1)),' min'));
     axis image off
@@ -59,7 +59,7 @@ publishableTif4(gcf,'C:\Users\Ryan2\Documents\My manuscripts and conference abst
 figure
 for tp=1:size(time,2)
     hot_this=squeeze(dt(tp,:,:));
-    subplot(4,5,tp);
+    subplot(3,6,tp);
     imagesc(hot_this);
     title(strcatspace(num2str(time(tp)-time(1)),' min'));
     axis image off
@@ -79,6 +79,11 @@ luxtron_time=(timestamps_sec-timestamps_sec(1)+luxtron_start_time_delay)/60;
 
 t_delta=t(:,voxel_use(1),voxel_use(2))-mean(t(1:5,voxel_use(1),voxel_use(2)));
 lux_delta=temperature_values(:,1)-temperature_values(1,1);
+
+%% rmsd
+hot_time=time-time(1);
+time_coarse=findClosestTimeSamples(luxtron_time,hot_time);
+rmsd_exp1=sqrt(mean((t_delta-lux_delta(time_coarse,1)).^2));
 
 f_mvl=figure;
 scatter(time-time(1),t_delta,'bx');

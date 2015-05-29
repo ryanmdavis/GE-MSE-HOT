@@ -49,6 +49,10 @@ centeredTextOnPlot(1501+shift,rf_off,'90^\circ');
 gz((2801:4200)+shift)=trap(1400,300);
 centeredTextOnPlot(3001+shift,gz_off,'mGT');
 
+%t0 label
+centeredTextOnPlot(4501+shift,rf_off-1,'t_0');
+
+
 %selective 180
 rf((5001:8000)+shift)=gauss(600,-1500:1499);
 centeredTextOnPlot(6501+shift,rf_off,'180^\circ_f');
@@ -57,9 +61,15 @@ centeredTextOnPlot(6501+shift,rf_off,'180^\circ_f');
 gz((8801:10200)+shift)=trap(1400,300);
 centeredTextOnPlot(9500+shift,gz_off,'nGT');
 
+%t1 label
+centeredTextOnPlot(10001+shift,rf_off-1,'t_1');
+
 %selective 90
 rf((11001:14000)+shift)=gauss(600,-1500:1499);
 centeredTextOnPlot(12501+shift,rf_off,'90^\circ_w');
+
+%t2 label
+centeredTextOnPlot(16001+shift,rf_off-1,'t_2');
 
 %slice selective sinc pulse
 rf2_pos=17001;
